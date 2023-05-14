@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+:root{
+   --grey: #747474;
+   --aqua: #00b39b;
+   --blue: #3d83df;
+}
+*{
+   padding: 0;
+   margin: 0; 
+   box-sizing: border-box;  
+}
+body{
+   font-family: roboto;
+}
+img {
+   max-width:100%;
+}
+nav {
+   display: flex;
+   justify-content: space-between;
+}
+#logo {
+   width: 200px;
+}
+ul {
+   list-style: none;
+   display: flex;
+   gap: 10px;
+}
+#hero-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#hero-section>div {
+   display: flex;
+   gap: 0.5rem;
+}
+#cards-warrper {
+   display: flex;
+}
+#links {
+   display: flex;
+}
